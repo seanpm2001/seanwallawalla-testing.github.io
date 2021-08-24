@@ -29,4 +29,8 @@ I have to figure out which file is causing the failure, and fix the problem, the
 
 For future use, this branch is going to go stale, but I am going to keep it for legacy and archival purposes.
 
+## Conclusion
+
+Conclusion: the file `INSTALL` was the problem. Even changing it to have a file extension still caused it to fail. Right now, the only way I can correct the problem is by not including it under its current name. I just tested all 7 files individually and have rooted this as the cause. I will release a patch tomorrow.
+
 ***
