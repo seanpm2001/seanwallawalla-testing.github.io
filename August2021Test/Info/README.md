@@ -33,4 +33,8 @@ For future use, this branch is going to go stale, but I am going to keep it for 
 
 Conclusion: the file `INSTALL` was the problem. Even changing it to have a file extension still caused it to fail. Right now, the only way I can correct the problem is by not including it under its current name. I just tested all 7 files individually and have rooted this as the cause. I will release a patch tomorrow.
 
+### Further difficulty
+
+After several workarounds, I found that GitHub pages seems to REALLY hate something about how this file is written. I tried changing the name to `INSTALLATION_INSTRUCTIONS_FILE` `INTSTALL` `iSTALL` and `HOWTO` and even tried replacing all instances of the word `install` to `build` but every attempt caused the site to fail to build. I am going to need to do more research on this.
+
 ***
